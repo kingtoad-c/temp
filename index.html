@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Network Test</title>
+  <style>
+    body {
+      background: #0a0a0a;
+      color: #00ff00;
+      font-family: "Courier New", Courier, monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .terminal-box {
+      background-color: #111;
+      border: 2px solid #00ff00;
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 700px;
+      text-align: left;
+      box-shadow: 0 0 15px #00ff00;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #00ff00;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #ccffcc;
+    }
+
+    .blink {
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      from, to { color: transparent }
+      50% { color: #00ff00; }
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal-box">
+    <h1>message from future hacker:</h1>
+    <p>
+      This is a test. I have not got any access to your device.<br><br>
+      I have managed to <strong>ARP spoof</strong> your connection and route your traffic through my machine and to this site.<br><br>
+      I'm just practicing my hacking — <strong>don't be scared</strong>. 😅
+    </p>
+    <p class="blink">_</p>
+  </div>
+</body>
+</html>
